@@ -32,6 +32,13 @@ if [[ $answer != "n" ]] && [[ $answer != "N" ]] ; then
     brew install ctags
     sudo mv /usr/bin/ctags /usr/bin/ctags_orig
 
+
+    # ===
+    # Nice to have apps :)
+    # ===
+    brew cask install --appdir="/Applications" spotify
+    brew cask install --appdir="/Applications" spotify-notifications
+
     # ===
     # Install nvm
     # ===
