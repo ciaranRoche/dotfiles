@@ -18,6 +18,10 @@ view_alias () {
     cat /Users/ciaranroche/.dotfiles/zsh/alias.zsh
 }
 
+view_java_versions () {
+    /usr/libexec/java_home -V
+}
+
 restart_zsh () {
     source /Users/ciaranroche/.dotfiles/zsh/zshrc
 }

@@ -238,4 +238,9 @@ source /Users/ciaranroche/.dotfiles/zsh/alias.zsh
 source /Users/ciaranroche/.dotfiles/zsh/scripts.zsh
 # >>1
 
+# Java Home
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+# >>1
+
 # EOF
+
