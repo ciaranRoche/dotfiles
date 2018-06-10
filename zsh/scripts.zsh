@@ -29,3 +29,10 @@ restart_zsh () {
 mkcd () {
     mkdir -p $1; cd $1;
 }
+
+
+targz() { tar -cvf $1.tar.gz $1; rm -r $1; }
+
+untargz() { tar -xvf $1; rm -r $1; }
+
+weather() { curl wttr.in/~Waterford }
