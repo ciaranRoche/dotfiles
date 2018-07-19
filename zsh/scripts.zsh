@@ -33,3 +33,9 @@ mkcd () {
 minikube_start () {
     minikube start && eval $(minikube docker-env)
 }
+
+targz() { tar -cvf $1.tar.gz $1; rm -r $1; }
+
+untargz() { tar -xvf $1; rm -r $1; }
+
+weather() { curl wttr.in/~Waterford }
