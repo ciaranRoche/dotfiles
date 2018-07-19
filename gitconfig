@@ -11,8 +11,13 @@
     untracked = yellow
 [user]
 	name = ciaranRoche
-    email = ciaranroche@hotmail.co.uk
+	email = ciaranroche@hotmail.co.uk
 [push]
     default = matching
 
 
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

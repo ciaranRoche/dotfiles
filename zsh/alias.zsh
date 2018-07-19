@@ -19,3 +19,5 @@ alias glog='git log'
 alias glogp='git log --pretty=format:"%C(yellow)%h\\ %Creset%s%Cblue\\ [%cn]\\%Cred%d" --decorate'
 alias grb='git rebase'
 alias grbc='git rebase --continuel'
+
+alias kc='kubectl'

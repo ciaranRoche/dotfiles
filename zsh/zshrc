@@ -242,5 +242,9 @@ source /Users/ciaranroche/.dotfiles/zsh/scripts.zsh
 export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 # >>1
 
+# nvm home
+export NVM_DIR="$HOME/.nvm"
+# >>1
+
 # EOF
 

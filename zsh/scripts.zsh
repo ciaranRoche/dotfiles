@@ -29,3 +29,7 @@ restart_zsh () {
 mkcd () {
     mkdir -p $1; cd $1;
 }
+
+minikube_start () {
+    minikube start && eval $(minikube docker-env)
+}
